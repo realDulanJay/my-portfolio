@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("../../assets/fonts/Poppins-Regular.ttf");
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: #0e0315;
+  overflow: hidden;
+}
+
+.name-tag {
+  background: -webkit-linear-gradient(
+    0deg,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.typing-text {
+  overflow: hidden;
+}
+
+.typing-text span {
+  color: white;
+  font-family: "MyFont";
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.typing-text span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0e0315;
+  border-left: 3px solid white;
+  animation: animate 8s steps(45) infinite;
+}
+
+@keyframes animate {
+  40%,
+  60% {
+    left: calc(100% + 4px);
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@media (max-width: 480px) {
+  svg {
+    height: 18px;
+    width: 18px;
+  }
+}

@@ -1,0 +1,16 @@
+.modal-header {
+  background-color: #302e31;
+}
+
+.modal-body {
+  background-color: #302e31;
+}
+
+.btn-close {
+  background-color: white;
+}
+
+.github-link {
+  text-decoration: none;
+  color: white;
+}

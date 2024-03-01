@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.tag {
+  padding: 0 20px;
+  height: 30px;
+  width: fit-content;
+  font-size: 14px;
+  line-height: 30px;
+  border-radius: 25px;
+  background-color: #302e31;
+  color: white;
+  border-color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #302e31;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: white; */
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}

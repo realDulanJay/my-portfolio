@@ -1,0 +1,64 @@
+@media (max-width: 600px) {
+  .text {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .toggle {
+    display: none;
+  }
+  .well {
+    display: none;
+  }
+}
+
+.belowCard {
+  display: block;
+}
+
+.whole-navbar {
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+.nav-link {
+  color: #0e0315 !important;
+}
+
+.active {
+  color: white !important;
+}
+
+.collapsed-nav-inks {
+  background: -webkit-linear-gradient(
+    0deg,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}

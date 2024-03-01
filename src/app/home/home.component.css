@@ -1,0 +1,77 @@
+/* .container {
+  overflow-x: hidden;
+} */
+
+img {
+  animation: animate 2s;
+  transform-origin: center;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.about {
+  background: -webkit-linear-gradient(
+    0deg,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: white;
+}
+
+.gradient-border {
+  border: double 10px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(
+      #d16ba5,
+      #c777b9,
+      #ba83ca,
+      #aa8fd8,
+      #9a9ae1,
+      #8aa7ec,
+      #79b3f4,
+      #69bff8,
+      #52cffe,
+      #41dfff,
+      #46eefa,
+      #5ffbf1
+    ),
+    radial-gradient(
+      circle at top left,
+      #d16ba5,
+      #c777b9,
+      #ba83ca,
+      #aa8fd8,
+      #9a9ae1,
+      #8aa7ec,
+      #79b3f4,
+      #69bff8,
+      #52cffe,
+      #41dfff,
+      #46eefa,
+      #5ffbf1
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}

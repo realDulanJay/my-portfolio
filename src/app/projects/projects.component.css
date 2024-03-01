@@ -1,0 +1,51 @@
+.container {
+  overflow: hidden;
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.project-card {
+  animation: slideInFromBottom 1s ease;
+}
+
+.filter {
+  background-color: #0e0315;
+  border-color: white;
+  color: white;
+}
+
+.filter:hover {
+  background-color: #302e31;
+  border-color: white;
+  color: white;
+}
+
+.reset {
+  background-color: #0e0315;
+  border-color: white;
+  color: white;
+}
+
+.reset:hover {
+  background-color: #302e31;
+  border-color: white;
+  color: white;
+}
+
+.form-group {
+  color: white;
+}
+
+.form-check-input[type="checkbox"]:checked {
+  background-color: #0e0315;
+  border-color: white;
+}
