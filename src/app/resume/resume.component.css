@@ -15,9 +15,31 @@
 
 .accordions {
   animation: slideInFromBottom 1s ease;
+
+  .panel-collapse {
+    background-color: #0e0315;
+  }
+
+  .card-header {
+    background-color: #0e0315;
+    border-color: white;
+  }
+
+  .btn {
+    color: white;
+    font-size: larger;
+  }
+
+  .btn:active {
+    color: white;
+  }
+
+  .card-header:hover {
+    background-color: #302e31;
+  }
 }
 
-accordion-group::ng-deep .card-header {
+/* accordion-group::ng-deep .card-header {
   background-color: #0e0315;
 }
 accordion-group::ng-deep .btn {
@@ -31,6 +53,14 @@ accordion-group::ng-deep .btn:active {
 
 accordion-group::ng-deep .card-header:hover {
   background-color: #302e31;
+} */
+
+.white-text {
+  color: white;
+}
+
+.lighter-text {
+  font-weight: lighter;
 }
 
 .download-button {
