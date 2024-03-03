@@ -16,10 +16,13 @@ export class ProjectsService {
       projectLink: 'https://github.com/realDulanJay',
       tags: [Tag.JAVA],
       pictures: [
-        '../../assets/project-images/Screenshot 2024-02-25 134206.png',
-        '../../assets/project-images/project_id_1_pic1.png',
-        '../../assets/project-images/Screenshot 2024-02-25 134724.png',
-        '../../assets/project-images/Screenshot 2024-02-25 140012.png',
+        '../../assets/project-images/project_id_0/project_id_0_pic1.png',
+        '../../assets/project-images/project_id_0/project_id_0_pic2.png',
+        '../../assets/project-images/project_id_0/project_id_0_pic3.png',
+        '../../assets/project-images/project_id_0/project_id_0_pic4.png',
+        '../../assets/project-images/project_id_0/project_id_0_pic5.png',
+        '../../assets/project-images/project_id_0/project_id_0_pic6.png',
+        '../../assets/project-images/project_id_0/project_id_0_pic7.png',
       ],
     },
     {
@@ -76,34 +79,6 @@ export class ProjectsService {
         '../../assets/project-images/project_id_3/project_id_3_pic5.png',
       ],
     },
-    // {
-    //   id: 4,
-    //   name: 'Rust Angular App',
-    //   summary: 'Test Description',
-    //   description:
-    //     'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries',
-    //   projectLink: '//www.github.com',
-    //   tags: [Tag.ANGULAR, Tag.TYPESCRIPT],
-    //   pictures: [
-    //     '../../assets/project-images/image1.png',
-    //     '../../assets/project-images/image2.png',
-    //     '../../assets/project-images/image3.png',
-    //   ],
-    // },
-    // {
-    //   id: 5,
-    //   name: 'Mine Angular App',
-    //   summary: 'Test Description',
-    //   description:
-    //     'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries',
-    //   projectLink: '//www.github.com',
-    //   tags: [Tag.ANGULAR, Tag.JAVA, Tag.TYPESCRIPT],
-    //   pictures: [
-    //     '../../assets/project-images/image1.png',
-    //     '../../assets/project-images/image2.png',
-    //     '../../assets/project-images/image3.png',
-    //   ],
-    // },
   ];
   constructor() {}
 
