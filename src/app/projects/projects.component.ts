@@ -16,10 +16,11 @@ export class PortfolioComponent implements OnInit {
 
   java: boolean = false;
   angular: boolean = false;
-  typeScript: boolean = false;
-  javaFx: boolean = false;
+  nodejs: boolean = false;
+  expressjs: boolean = false;
   javascrpt: boolean = false;
   mySql: boolean = false;
+  javaFx: boolean = false;
 
   filtering: boolean = false;
 
@@ -42,8 +43,8 @@ export class PortfolioComponent implements OnInit {
     if (this.angular) {
       filterTags.push(Tag.ANGULAR);
     }
-    if (this.typeScript) {
-      filterTags.push(Tag.TYPESCRIPT);
+    if (this.nodejs) {
+      filterTags.push(Tag.NODEJS);
     }
     if (this.mySql) {
       filterTags.push(Tag.MYSQL);
@@ -51,16 +52,16 @@ export class PortfolioComponent implements OnInit {
     if (this.javaFx) {
       filterTags.push(Tag.JAVAFX);
     }
-    if (this.javascrpt) {
-      filterTags.push(Tag.JAVASCRIPT);
+    if (this.expressjs) {
+      filterTags.push(Tag.EXPRESSJS);
     }
 
     if (
       this.java ||
       this.javaFx ||
-      this.typeScript ||
+      this.nodejs ||
       this.angular ||
-      this.javascrpt ||
+      this.expressjs ||
       this.mySql
     ) {
       this.filtering = true;
@@ -74,9 +75,9 @@ export class PortfolioComponent implements OnInit {
   resetFilters() {
     this.java = false;
     this.angular = false;
-    this.typeScript = false;
+    this.nodejs = false;
     this.javaFx = false;
-    this.javascrpt = false;
+    this.expressjs = false;
     this.mySql = false;
 
     this.filtering = false;
