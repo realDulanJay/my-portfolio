@@ -1,184 +1,273 @@
 <div class="container text-center">
-    <button (click)="downloadFile()"
-        class="btn download-button gradient-overlay shadow border rounded-0 mb-5 mt-5"><b>Download
-            PDF
-            Resume</b></button>
+    <button (click)="downloadFile()" class="btn download-button gradient-overlay shadow border rounded-0 mb-5 mt-5">
+        <b>Download PDF Resume</b>
+    </button>
 
     <div class="pb-2 accordions mb-5">
         <accordion [isAnimated]="true" class="shadow">
             <accordion-group [(isOpen)]="isEducationOpen">
                 <button class="btn btn-block justify-content-between shadow-none d-flex w-100" accordion-heading
-                    type="button" style="border: none;">
-
-                    <div style="visibility: hidden;">></div>
+                    type="button" style="border: none">
+                    <div style="visibility: hidden">></div>
 
                     <div class="pull-left float-left">Education</div>
 
-                    <div style="width: 10.95px;">
-                        <div *ngIf="!isEducationOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <div style="width: 10.95px">
+                        <div *ngIf="!isEducationOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
-                            </svg></div>
-                        <div *ngIf="isEducationOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            </svg>
+                        </div>
+                        <div *ngIf="isEducationOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" />
-                            </svg></div>
+                            </svg>
+                        </div>
                     </div>
                 </button>
-                <div style="text-align: left;">
-                    <h3 class="mb-0 white-text">University of Sri Jayewardenepura, Sri Lanka</h3>
-                    <h4 class="white-text" style="font-weight: lighter;"><i>Bachelor of ICT in Software Technology</i>
+                <div style="text-align: left">
+                    <h3 class="mb-0 white-text">
+                        University of Sri Jayewardenepura, Sri Lanka
+                    </h3>
+                    <h4 class="white-text" style="font-weight: lighter">
+                        <i>Bachelor of ICT in Software Technology</i>
                     </h4>
                     <h6 class="white-text lighter-text"><i>(2021 - present)</i></h6>
                     <ul class="white-text lighter-text">
-                        <li>Expected graduation: 2025</li>
-                        <li>GPA: 3.59/4</li>
+                        <li><i>Expected graduation: 2025</i></li>
+                        <li><i>GPA: 3.59/4</i></li>
                     </ul>
                 </div>
-                <hr>
-                <div style="text-align: left;">
+                <hr />
+                <div style="text-align: left">
                     <h3 class="mb-0 white-text">Developers Stack Academy</h3>
-                    <h4 class="white-text lighter-text"><i>Diploma in Software Engineering</i></h4>
+                    <h4 class="white-text lighter-text">
+                        <i>Diploma in Software Engineering</i>
+                    </h4>
                     <h6 class="white-text lighter-text"><i>(Jan 2023 - Jan 2024)</i></h6>
                     <ul class="white-text lighter-text">
-                        <li>TVEC approved diploma</li>
+                        <li><i>TVEC approved diploma</i></li>
                     </ul>
                 </div>
-
             </accordion-group>
             <accordion-group [(isOpen)]="isProfessionalExperienceOpen">
                 <button class="btn btn-block justify-content-between shadow-none d-flex w-100" accordion-heading
-                    type="button" style="border: none;">
-                    <div style="visibility: hidden;">></div>
+                    type="button" style="border: none">
+                    <div style="visibility: hidden">></div>
 
                     <div class="pull-left float-left">Professional Experience</div>
 
-                    <div style="width: 10.95px;">
-                        <div *ngIf="!isProfessionalExperienceOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20"
-                                width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <div style="width: 10.95px">
+                        <div *ngIf="!isProfessionalExperienceOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
-                            </svg></div>
-                        <div *ngIf="isProfessionalExperienceOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20"
-                                width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            </svg>
+                        </div>
+                        <div *ngIf="isProfessionalExperienceOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" />
-                            </svg></div>
+                            </svg>
+                        </div>
                     </div>
-
                 </button>
-                <div style="text-align: left;">
+                <div style="text-align: left">
                     <h3 class="mb-0 white-text">IT Support Technician</h3>
-                    <h4 class="white-text lighter-text"><i>Helaisi Lanka Products (Pvt) Ltd.</i></h4>
-                    <h6 class="white-text lighter-text"><i>02/2023 - 09/2023</i></h6>
+                    <h4 class="white-text lighter-text">
+                        <i>Helaisi Lanka Products (Pvt) Ltd.</i>
+                    </h4>
+                    <h6 class="white-text lighter-text"><i>(Feb 2022 - Sept 2022)</i></h6>
                     <ul class="white-text lighter-text">
-                        <li>hello</li>
-                        <li>hello</li>
-                        <li>hello</li>
+                        <li>
+                            <i>Communicated technical solutions to non-technical users,
+                                ensuring clear understanding and user empowerment.</i>
+                        </li>
+                        <li>
+                            <i>Installed, configured, and maintained various IT equipment,
+                                including desktops, laptops and printers.</i>
+                        </li>
                     </ul>
                 </div>
             </accordion-group>
             <accordion-group [(isOpen)]="isSkillsOpen">
                 <button class="btn btn-block justify-content-between shadow-none d-flex w-100" accordion-heading
-                    type="button" style="border: none;">
-                    <div style="visibility: hidden;">></div>
+                    type="button" style="border: none">
+                    <div style="visibility: hidden">></div>
 
                     <div class="pull-left float-left">Skills</div>
 
-                    <div style="width: 10.95px;">
-                        <div *ngIf="!isSkillsOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <div style="width: 10.95px">
+                        <div *ngIf="!isSkillsOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
-                            </svg></div>
-                        <div *ngIf="isSkillsOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            </svg>
+                        </div>
+                        <div *ngIf="isSkillsOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" />
-                            </svg></div>
+                            </svg>
+                        </div>
                     </div>
-
                 </button>
-                This is just some content to illustrate fancy headings.
+                <div style="text-align: left">
+                    <h4 class="mb-0 white-text">Programming Languages</h4>
+                    <ul class="white-text lighter-text">
+                        <li><i>Java</i></li>
+                        <li><i>JavaScript</i></li>
+                        <li><i>TypeScript</i></li>
+                    </ul>
+                </div>
+                <div style="text-align: left">
+                    <h4 class="mb-0 white-text">Mobile App Development</h4>
+                    <ul class="white-text lighter-text">
+                        <li><i>Java</i></li>
+                    </ul>
+                </div>
+                <div style="text-align: left">
+                    <h4 class="mb-0 white-text">Backend Web Development</h4>
+                    <ul class="white-text lighter-text">
+                        <li><i>Node.js</i></li>
+                        <li><i>Express.js</i></li>
+                    </ul>
+                </div>
+                <div style="text-align: left">
+                    <h4 class="mb-0 white-text">Frontend Web Development</h4>
+                    <ul class="white-text lighter-text">
+                        <li><i>Angular</i></li>
+                        <li><i>JavaFX</i></li>
+                    </ul>
+                </div>
+                <div style="text-align: left">
+                    <h4 class="mb-0 white-text">Database</h4>
+                    <ul class="white-text lighter-text">
+                        <li><i>MySQL</i></li>
+                    </ul>
+                </div>
+                <div style="text-align: left">
+                    <h4 class="mb-0 white-text">Soft Skills</h4>
+                    <ul class="white-text lighter-text">
+                        <li><i>Communication</i></li>
+                        <li><i>Teamwork</i></li>
+                        <li><i>Problem-solving</i></li>
+                        <li><i>Adaptability</i></li>
+                    </ul>
+                </div>
             </accordion-group>
             <accordion-group [(isOpen)]="isVolunteerExperienceOpen">
                 <button class="btn btn-block justify-content-between shadow-none d-flex w-100" accordion-heading
-                    type="button" style="border: none;">
-                    <div style="visibility: hidden;">></div>
+                    type="button" style="border: none">
+                    <div style="visibility: hidden">></div>
 
                     <div class="pull-left float-left">Volunteer Experience</div>
 
-                    <div style="width: 10.95px;">
-                        <div *ngIf="!isVolunteerExperienceOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20"
-                                width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <div style="width: 10.95px">
+                        <div *ngIf="!isVolunteerExperienceOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
-                            </svg></div>
-                        <div *ngIf="isVolunteerExperienceOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20"
-                                width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            </svg>
+                        </div>
+                        <div *ngIf="isVolunteerExperienceOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" />
-                            </svg></div>
+                            </svg>
+                        </div>
                     </div>
-
                 </button>
-                <div style="text-align: left;">
+                <div style="text-align: left">
                     <h3 class="mb-0 white-text">Finance Committee Member</h3>
-                    <h4 class="white-text">IEEE Student Branch - University of Sri Jayewardenepura</h4>
-                    <h6 class="white-text"><i>02/2023 - 09/2023</i></h6>
-                    <ul class="white-text">
-                        <li>hello</li>
-                        <li>hello</li>
-                        <li>hello</li>
+                    <h4 class="white-text lighter-text">
+                        <i>IEEE Student Branch - University of Sri Jayewardenepura</i>
+                    </h4>
+                    <h6 class="white-text lighter-text"><i>(Sept 2023 - present) </i></h6>
+                    <ul class="white-text lighter-text">
+                        <li><i>J'Pura Expedition - Organizing Committee Member</i></li>
                     </ul>
                 </div>
-                <hr>
-                <div style="text-align: left;">
-                    <h3 class="mb-0 white-text">Active contributor in Stack Overflow</h3>
-                    <h4 class="white-text">www.stackoverflow.com</h4>
-                    <h6 class="white-text"><i><a class="white-text"
+                <hr />
+                <div style="text-align: left">
+                    <h3 class="mb-0 white-text">Contributor in Stack Overflow</h3>
+                    <h4 class="white-text lighter-text"><i>www.stackoverflow.com</i></h4>
+                    <h6 class="white-text lighter-text"><i> (Jan 2023 - present)</i></h6>
+                    <h6 class="white-text lighter-text">
+                        <i><a class="white-text lighter-text"
                                 href="https://stackoverflow.com/users/21120027/dulan-jayawickrama?tab=profile"
-                                target="_blank">click here to
-                                see the profile</a></i></h6>
+                                target="_blank">click here to see the profile</a></i>
+                    </h6>
                     <div class="row">
-                        <img src="../../assets/stackoverflow.png" alt="stackoverflow_details">
+                        <img src="../../assets/stackoverflow.png" alt="stackoverflow_details" />
                     </div>
-
+                </div>
+                <hr />
+                <div style="text-align: left">
+                    <h3 class="mb-0 white-text">Member</h3>
+                    <h4 class="white-text lighter-text">
+                        <i>Generation ALPHA </i>
+                    </h4>
+                    <h6 class="white-text lighter-text"><i> (Jan 2024 - present)</i></h6>
+                    <ul class="white-text lighter-text">
+                        <li><i>Generation ALPHA is building a network including industrial professionals, researchers,
+                                mentors, investors, and other facility providers to assist undergraduates, fresh
+                                graduates,
+                                vocational trainee students, self-employed, and unemployed young people to assist them
+                                in
+                                the process of commercializing their innovative ideas.</i></li>
+                    </ul>
                 </div>
             </accordion-group>
             <accordion-group [(isOpen)]="isCertificationsOpen">
                 <button class="btn btn-block justify-content-between shadow-none d-flex w-100" accordion-heading
-                    type="button" style="border: none;">
-                    <div style="visibility: hidden;">></div>
+                    type="button" style="border: none">
+                    <div style="visibility: hidden">></div>
 
                     <div class="pull-left float-left">Certfications</div>
 
-                    <div style="width: 10.95px;">
-                        <div *ngIf="!isCertificationsOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20"
-                                width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <div style="width: 10.95px">
+                        <div *ngIf="!isCertificationsOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
-                            </svg></div>
-                        <div *ngIf="isCertificationsOpen"><svg xmlns="http://www.w3.org/2000/svg" height="20"
-                                width="12.5"
-                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            </svg>
+                        </div>
+                        <div *ngIf="isCertificationsOpen">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
                                 <path fill="#ffffff"
                                     d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" />
-                            </svg></div>
+                            </svg>
+                        </div>
                     </div>
-
                 </button>
-                This is just some content to illustrate fancy headings.
+                <div style="text-align: left">
+                    <h3 class="mb-0 white-text">Diploma in Software Engineering</h3>
+                    <h4 class="white-text lighter-text">
+                        <i>Developers Stack Academy</i>
+                    </h4>
+                </div>
+                <hr />
+                <div style="text-align: left">
+                    <h3 class="mb-0 white-text">Data Structure & Algorithms in Java for
+                        Intermediate Level</h3>
+                    <h4 class="white-text lighter-text">
+                        <i>Great Learning Academy</i>
+                    </h4>
+                </div>
             </accordion-group>
         </accordion>
     </div>
-
-
 </div>
