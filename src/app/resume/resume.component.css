@@ -16,9 +16,9 @@
 .accordions {
   animation: slideInFromBottom 1s ease;
 
-  /* .panel-collapse {
+  .panel-collapse {
     background-color: #0e0315;
-  } */
+  }
 
   .card-header {
     background-color: #0e0315;
