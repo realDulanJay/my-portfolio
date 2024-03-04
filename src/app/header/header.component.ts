@@ -19,7 +19,7 @@ export class HeaderComponent implements OnInit {
       this.text = 'Mobile App Developer';
     }, 0);
     setTimeout(() => {
-      this.text = 'Full-Stack Web Deveoper';
+      this.text = 'Full-Stack Web Developer';
     }, 8000);
   }
 }
