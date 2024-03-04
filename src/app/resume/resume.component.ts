@@ -14,7 +14,7 @@ export class ResumeComponent {
   isCertificationsOpen: boolean = false;
 
   constructor(private titleService: Title, private renderer: Renderer2) {
-    this.titleService.setTitle('Dulan Jayawckrama - Resume');
+    this.titleService.setTitle('Dulan Jayawickrama - Resume');
   }
 
   downloadFile() {
