@@ -39,7 +39,7 @@
   } */
 }
 
-.accordions .panel-collapse {
+/* .accordions .panel-collapse {
   background-color: #0e0315;
 }
 
@@ -59,9 +59,9 @@
 
 .card-header:hover {
   background-color: #302e31;
-}
+} */
 
-/* accordion-group::ng-deep .card-header {
+accordion-group::ng-deep .card-header {
   background-color: #0e0315;
 }
 accordion-group::ng-deep .btn {
@@ -75,7 +75,7 @@ accordion-group::ng-deep .btn:active {
 
 accordion-group::ng-deep .card-header:hover {
   background-color: #302e31;
-} */
+}
 
 .white-text {
   color: white;
