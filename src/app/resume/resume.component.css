@@ -77,6 +77,10 @@ accordion-group::ng-deep .card-header:hover {
   background-color: #302e31;
 }
 
+accordion-group::ng-deep .card-header:not(.collapsed) {
+  background-color: red;
+}
+
 .white-text {
   color: white;
 }
