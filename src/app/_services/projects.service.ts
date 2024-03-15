@@ -13,7 +13,8 @@ export class ProjectsService {
       summary: 'Encrypt & Decrypt Messages',
       description:
         'Encrypt your messages with confidence using Cipher Message, the ultimate text encryption app! Safeguard your sensitive information with default or custom encryption keys. You have the option to add your screen lock as the app lock for added security. Keep track of your encrypted texts with the history function, or decline that option for more privacy. You can change encryption keys and delete encrypted message history at anytime.',
-      projectLink: 'https://github.com/realDulanJay',
+      projectLink:
+        'https://play.google.com/store/apps/details?id=com.forgeapps.ciphermessage',
       tags: [Tag.JAVA],
       pictures: [
         '../../assets/project-images/project_id_0/project_id_0_pic1.png',
