@@ -16,10 +16,10 @@ export class HeaderComponent implements OnInit {
 
   textLoad() {
     setTimeout(() => {
-      this.text = 'Mobile App Developer';
+      this.text = 'Generative AI Enthusiast';
     }, 0);
     setTimeout(() => {
-      this.text = 'Full-Stack Web Developer';
+      this.text = 'Generative AI Enthusiast';
     }, 8000);
   }
 }
