@@ -7,6 +7,8 @@ export class Tag {
   static readonly MYSQL = new Tag('MySQL');
   static readonly NODEJS = new Tag('Node.js');
   static readonly EXPRESSJS = new Tag('Express.js');
+  static readonly PYTHON = new Tag('Python');
+  static readonly CREWAI = new Tag('CrewAI');
 
   private constructor(private readonly key: string) {}
 

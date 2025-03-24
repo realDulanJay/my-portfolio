@@ -5,6 +5,10 @@ import { Tag } from '../_models/tags';
 @Injectable({
   providedIn: 'root',
 })
+
+// project ids are shuffled
+// TODO: fix the project ids
+
 export class ProjectsService {
   projects: Project[] = [
     {
@@ -28,6 +32,21 @@ export class ProjectsService {
     },
     {
       id: 1,
+      name: ' MinuteMate (Agentic AI)',
+      summary: 'Transcribe, summarize and email meeting minutes',
+      description:
+        'An Agentic AI system that transcribes, summarizes, and drafts email-ready meeting minutes using multiple role-based agents with CrewAI. Designed to automate meeting documentation, this system leverages AI agents to extract key insights, generate structured summaries, and format them into professional email drafts. ',
+      projectLink:
+        'https://github.com/realDulanJay/MinuteMate',
+      tags: [Tag.PYTHON, Tag.CREWAI],
+      pictures: [
+        '../../assets/project-images/project_id_4/project_id_4_pic2.png',
+        '../../assets/project-images/project_id_4/project_id_4_pic3.png',
+        '../../assets/project-images/project_id_4/project_id_4_pic1.png',
+      ],
+    },
+    {
+      id: 2,
       name: 'Cafeteria Management System',
       summary: 'Full-stack Single Page Application (SPA) Project',
       description:
@@ -47,7 +66,7 @@ export class ProjectsService {
       ],
     },
     {
-      id: 2,
+      id: 3,
       name: 'Retail Management System',
       summary: 'Standalone Java Application',
       description:
@@ -57,29 +76,25 @@ export class ProjectsService {
       tags: [Tag.JAVA, Tag.JAVAFX, Tag.MYSQL],
       pictures: [
         '../../assets/project-images/project_id_2/project_id_2_pic1.png',
-        '../../assets/project-images/project_id_2/project_id_2_pic2.png',
-        '../../assets/project-images/project_id_2/project_id_2_pic3.png',
-        '../../assets/project-images/project_id_2/project_id_2_pic4.png',
-        '../../assets/project-images/project_id_2/project_id_2_pic5.png',
-        '../../assets/project-images/project_id_2/project_id_2_pic6.png',
+        
       ],
     },
-    {
-      id: 3,
-      name: 'Portfolio Website',
-      summary: 'My portfolio as a Single Page Application (SPA)',
-      description:
-        'Developed my portfolio website as a sleek Single Page Application (SPA) to showcase my projects, resume, and provide a direct point of contact. This site offers a seamless user experience with sections dedicated to displaying my various projects, enabling easy navigation through my resume, and providing a streamlined contact process. The website reflects my commitment to simplicity and efficiency, allowing visitors to download my resume directly.',
-      projectLink: 'https://github.com/realDulanJay/my-portfolio',
-      tags: [Tag.ANGULAR],
-      pictures: [
-        '../../assets/project-images/project_id_3/project_id_3_pic1.png',
-        '../../assets/project-images/project_id_3/project_id_3_pic2.png',
-        '../../assets/project-images/project_id_3/project_id_3_pic3.png',
-        '../../assets/project-images/project_id_3/project_id_3_pic4.png',
-        '../../assets/project-images/project_id_3/project_id_3_pic5.png',
-      ],
-    },
+    // {
+    //   id: 3,
+    //   name: 'Portfolio Website',
+    //   summary: 'My portfolio as a Single Page Application (SPA)',
+    //   description:
+    //     'Developed my portfolio website as a sleek Single Page Application (SPA) to showcase my projects, resume, and provide a direct point of contact. This site offers a seamless user experience with sections dedicated to displaying my various projects, enabling easy navigation through my resume, and providing a streamlined contact process. The website reflects my commitment to simplicity and efficiency, allowing visitors to download my resume directly.',
+    //   projectLink: 'https://github.com/realDulanJay/my-portfolio',
+    //   tags: [Tag.ANGULAR],
+    //   pictures: [
+    //     '../../assets/project-images/project_id_3/project_id_3_pic1.png',
+    //     '../../assets/project-images/project_id_3/project_id_3_pic2.png',
+    //     '../../assets/project-images/project_id_3/project_id_3_pic3.png',
+    //     '../../assets/project-images/project_id_3/project_id_3_pic4.png',
+    //     '../../assets/project-images/project_id_3/project_id_3_pic5.png',
+    //   ],
+    // },
   ];
   constructor() {}
 

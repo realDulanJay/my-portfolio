@@ -21,6 +21,8 @@ export class PortfolioComponent implements OnInit {
   javascrpt: boolean = false;
   mySql: boolean = false;
   javaFx: boolean = false;
+  python: boolean = false;
+  crewAi: boolean = false;
 
   filtering: boolean = false;
 
@@ -55,6 +57,12 @@ export class PortfolioComponent implements OnInit {
     if (this.expressjs) {
       filterTags.push(Tag.EXPRESSJS);
     }
+    if (this.python) {
+      filterTags.push(Tag.PYTHON);  
+    }
+    if (this.crewAi) {
+      filterTags.push(Tag.CREWAI);
+    }
 
     if (
       this.java ||
@@ -62,7 +70,9 @@ export class PortfolioComponent implements OnInit {
       this.nodejs ||
       this.angular ||
       this.expressjs ||
-      this.mySql
+      this.mySql ||
+      this.python ||
+      this.crewAi
     ) {
       this.filtering = true;
     } else {
@@ -79,6 +89,8 @@ export class PortfolioComponent implements OnInit {
     this.javaFx = false;
     this.expressjs = false;
     this.mySql = false;
+    this.python = false;
+    this.crewAi = false;
 
     this.filtering = false;
 
